@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    background-color: white;
+    margin: 0px;
 }
 .top{
     background-color: #1F2937;
@@ -7,14 +8,15 @@ body{
     flex-direction: column;
     padding-left: 300px;
     padding-right: 300px;
-    padding-top: 30px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     
 }
 
@@ -63,4 +65,88 @@ button{
 a{
     text-decoration: none;
     color: #e5e7eb;
+}
+
+/*section two*/
+
+.section_two{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.image_container{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.image_sub img{
+    border: 5px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.section_two h3{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder ;
+}
+
+.section_two p{
+    width: 200px;
+    color: #1F2937;
+}
+
+/*section three*/
+
+.section_three{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#qoute{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937 ;
+}
+
+#qouter{
+    padding-left: 400px;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size:small;
+}
+
+/*fourth section*/
+
+.action{
+    display: flex;
+    padding: 10px;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    border-radius: 10px;
+    margin: 90px 200px;
+}
+
+.button button{
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
